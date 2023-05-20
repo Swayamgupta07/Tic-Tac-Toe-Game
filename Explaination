@@ -1,6 +1,5 @@
 The code consists of several functions:
-
-drawBoard() - This function displays the current state of the game board.
+The code begins with x because if we alter it to x, the winner will be someone else.drawBoard() - This function displays the current state of the game board.
 isMoveValid(int row, int col) - This function checks if a move is valid by ensuring that the specified cell is within the bounds of the board and is not already occupied.
 checkForWin() - This function checks if any player has won the game by examining each row, column, and diagonal for three consecutive marks.
 switchPlayer() - This function switches the current player after each move.
