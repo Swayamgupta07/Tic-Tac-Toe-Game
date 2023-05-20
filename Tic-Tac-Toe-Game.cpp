@@ -82,14 +82,14 @@ int main() {
   drawBoard();
   // Loop until a player wins the game
   while (!checkForWin()) {
+    // Switch to the next player
+    switchPlayer();
     // Get a move from the current player
     makeMove();
     // Draw the updated game board
     drawBoard();
-    // Switch to the next player
-    switchPlayer();
   }
   // Print the winner
-    cout << "Player " << currentPlayer << " wins!\n";
+  cout << "Player " << currentPlayer << " wins!\n";
   return 0;
 }
